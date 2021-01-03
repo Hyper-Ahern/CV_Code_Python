@@ -1,3 +1,5 @@
+Following TDD, wrote python scripts that met the following requirements:
+
 • Train stations are where travellers wait to get on a train. At any given time, there may be
 up to 200 travellers waiting. Every hour, 0-25 new travellers show up. When a train
 arrives, travellers have a 50% chance of embarking.
