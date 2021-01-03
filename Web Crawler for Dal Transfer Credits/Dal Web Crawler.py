@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import time
 import csv
 
-# Get the URL and the first set of full parameters (full set because we need to garner information)
+# Get the URL and the first set of full parameters (full set only because we need to garner information)
 targetURL = "https://dalonline.dal.ca/PROD/fyskeqiv.P_TransEquiv"
 params = {'prov': 'ALLINST', 'inst': 'NSU002', 'subj': 'CSCI'}
 HTTPRequest = requests.post(targetURL, data=params)
