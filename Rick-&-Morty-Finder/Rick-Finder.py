@@ -22,4 +22,4 @@ for i in episode_list :
     print("Episode", i, "of Rick and Morty AKA Episode", episodeNumber, "Season", seasonNumber)
     input("Input anything to continue.\n")
 
-print("You're done, Wubba Lubba Dub Dub...")
+print("You're done! Wubba Lubba Dub Dub...")
